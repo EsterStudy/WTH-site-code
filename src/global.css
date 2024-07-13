@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-museo-sans-cyrl: "Museo Sans Cyrl";
+  --roboto-mono-regular-12857142448425293: "Roboto Mono";
+  --font-inter: Inter;
+  --desktop-button: "Cormorant SC";
+  --font-museomoderno: MuseoModerno;
+
+  /* font sizes */
+  --desktop-paragraph-small-size: 16px;
+  --desktop-title-l-size: 36px;
+  --roboto-mono-regular-12857142448425293-size: 12.9px;
+  --roboto-mono-regular-15428571701049805-size: 15.4px;
+  --desktop-title-low-size: 14px;
+  --font-size-3xl: 22px;
+  --font-size-29xl: 48px;
+  --desktop-paragraph-size: 20px;
+  --desktop-button-nicknames-size: 12px;
+  --desktop-subtitle-2-bold-size: 24px;
+  --font-size-11xl: 30px;
+  --desktop-subtitle-size: 32px;
+  --desktop-large-title-size: 40px;
+  --desktop-subtitle-3-size: 18px;
+  --font-size-lg-4: 18.4px;
+
+  /* Colors */
+  --color-whitesmoke: #efefef;
+  --color-mediumaquamarine: #10b48e;
+  --color-goldenrod: #ffc228;
+  --color-cadetblue: #7bb8c0;
+  --color-hotpink: #f775a9;
+  --color-white: #fff;
+  --color-pink: #f3b2cc;
+  --color-khaki: #f7d98c;
+  --color-black: #000;
+  --color-lightpink: #ef96a8;
+  --light-text-primary: #1e3147;
+  --color-darkgray: #a7a7a7;
+  --color-paleturquoise: #added3;
+  --color-gray: #212b18;
+  --color-gainsboro-100: #dee0e2;
+
+  /* Gaps */
+  --gap-7xs: 6px;
+  --gap-sm: 14px;
+  --gap-base: 16px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-smi-9: 12.9px;
+  --gap-xl: 20px;
+  --gap-9xl: 28px;
+  --gap-3xl: 22px;
+  --gap-15xl: 34px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-152xl: 171px;
+  --padding-mini: 15px;
+  --padding-9xl: 28px;
+  --padding-7xs: 6px;
+  --padding-3xs: 10px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+  --br-481xl: 500px;
+  --br-21xl: 40px;
+  --br-41xl: 60px;
+  --br-3xl: 22px;
+  --br-9xs: 4px;
+  --br-241xl: 260px;
+  --br-12xl: 31px;
+  --br-26xl: 45px;
+  --br-81xl: 100px;
+  --br-341xl: 360px;
+  --br-161xl: 180px;
+}
