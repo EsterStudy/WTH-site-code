@@ -1,5 +1,5 @@
 .child24 {
-  position: absolute;
+  position: fixed;
   top: -636px;
   left: -1212px;
   border-radius: var(--br-341xl);
@@ -7,36 +7,38 @@
   height: 2144px;
 }
 .vector-icon16 {
-  position: absolute;
+  position: fixed;
   top: 75px;
-  left: 369px;
+  left: 869px;
   width: 36px;
   height: 36px;
+
 }
 .i59,
 .with-nasa {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
+  top: 300px;
+  left: 200px;
 }
 .with-nasa {
-  top: 59px;
-  left: 34px;
+  top: 359px;
+  left: 200px;
   font-size: var(--desktop-subtitle-size);
   white-space: pre-wrap;
 }
-.i60,
-.i61 {
-  position: absolute;
-  top: 117px;
-  left: 0;
+.i60 {
+  position: fixed;
+  top:417px;
+  left: 200px;
 }
 .i61 {
-  top: 176px;
+  position: fixed;
+  top: 240px;
+  left: 200px;
 }
 .div87,
 .side-bar-sort {
-  position: absolute;
+  position: fixed;
   top: 322px;
   left: 63px;
   width: 318px;
@@ -50,12 +52,12 @@
 }
 .sidebar-menu {
   width: 1440px;
-  position: relative;
+  position: fixed;
   height: 864px;
   overflow: hidden;
   max-width: 100%;
   max-height: 100%;
-  text-align: left;
+  text-align: center;
   font-size: var(--desktop-title-l-size);
   color: var(--color-white);
   font-family: var(--font-museo-sans-cyrl);

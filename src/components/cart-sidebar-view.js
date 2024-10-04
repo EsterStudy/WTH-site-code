@@ -7,7 +7,7 @@ const CartSidebarView = ({ className = "" }) => {
       <img className="cart-sidebar-view-child" alt="" src="/star-22.svg" />
       <div className="sidebar-cart">
         <div className="state-button10">
-          <i className="feed-me-pussycat">Оформить заказ</i>
+          <i className="button-text">Оформить заказ</i>
         </div>
         <div className="total-sum">
           <i className="i149">Общая сумма</i>

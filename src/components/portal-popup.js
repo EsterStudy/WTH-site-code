@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 const PortalPopup = ({
   children,
   overlayColor,
-  placement = "Centered",
+  placement = "Top right",
   onOutsideClick,
   zIndex = 100,
   left = 0,
@@ -29,25 +29,25 @@ const PortalPopup = ({
     }
     if (!relativeLayerRef?.current) {
       switch (placement) {
-        case "Centered":
-          style.alignItems = "center";
-          style.justifyContent = "center";
+        case "Right":
+          style.alignItems = "right";
+          style.justifyContent = "right";
           break;
-        case "Top left":
+        case "Top right":
           style.alignItems = "flex-start";
           break;
-        case "Top center":
-          style.alignItems = "center";
+        case "Top right":
+          style.alignItems = "right";
           break;
         case "Top right":
           style.alignItems = "flex-end";
           break;
-        case "Bottom left":
+        case "Bottom right":
           style.alignItems = "flex-start";
           style.justifyContent = "flex-end";
           break;
-        case "Bottom center":
-          style.alignItems = "center";
+        case "Bottom right":
+          style.alignItems = "right";
           style.justifyContent = "flex-end";
           break;
         case "Bottom right":
@@ -74,7 +74,7 @@ const PortalPopup = ({
       const { width: containerW, height: containerH } = containerItem;
       style.position = "absolute";
       switch (placement) {
-        case "Top left":
+        case "Top right":
           style.top = relativeY - containerH - top;
           style.left = relativeX + left;
           break;
@@ -82,7 +82,7 @@ const PortalPopup = ({
           style.top = relativeY - containerH - top;
           style.left = relativeX + relativeW - containerW - right;
           break;
-        case "Bottom left":
+        case "Bottom right":
           style.top = relativeY + relativeH + bottom;
           style.left = relativeX + left;
           break;

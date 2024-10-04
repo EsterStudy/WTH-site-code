@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
-import CartSidebarView from "../components/CartSidebarView";
-import PortalPopup from "../components/PortalPopup";
-import SidebarMenu from "../components/SidebarMenu";
+import CartSidebarView from "../components/cart-sidebar-view";
+import PortalPopup from "../components/portal-popup";
+import SidebarMenu from "../components/sidebar-menu";
 import { useNavigate } from "react-router-dom";
 import "./catalog.css";
 
@@ -368,7 +368,7 @@ const Catalog = () => {
           <img
             className="icon11"
             alt=""
-            src="/.svg"
+            src="Target.svg"
             onClick={openCartSidebarView}
           />
           <div className="rectangle-parent1" onClick={openSidebarMenu}>

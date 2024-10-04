@@ -6,7 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import AuthLogIn from "./pages/auth-log-in";
-import UIKitCard from "./pages/u-i-kit-card";
+//import UIKitCard from "./pages/u-i-kit-card";
 import MainPage from "./pages/main-page";
 import Catalog from "./pages/catalog";
 import ProductCardDetails from "./pages/product-card-details";
@@ -66,7 +66,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<AuthLogIn />} />
-      <Route path="/uikit-card" element={<UIKitCard />} />
+      {/* <Route path="/uikit-card" element={<UIKitCard />} /> */}
       <Route path="/main-page" element={<MainPage />} />
       <Route path="/catalog" element={<Catalog />} />
       <Route path="/product-card-details" element={<ProductCardDetails />} />

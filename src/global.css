@@ -8,11 +8,11 @@ body {
 }
 :root {
   /* fonts */
-  --font-museo-sans-cyrl: "Museo Sans Cyrl";
+  --font-museo-sans-cyrl: "Museo Sans Cyrl 500";
   --roboto-mono-regular-12857142448425293: "Roboto Mono";
-  --font-inter: Inter;
+  --font-inter: "Inter";
   --desktop-button: "Cormorant SC";
-  --font-museomoderno: MuseoModerno;
+  --font-museomoderno: "MuseoModerno";
 
   /* font sizes */
   --desktop-paragraph-small-size: 16px;

@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
-import SidebarMenu from "../components/SidebarMenu";
-import PortalPopup from "../components/PortalPopup";
-import CartSidebarView from "../components/CartSidebarView";
+import SidebarMenu from "../components/sidebar-menu";
+import PortalPopup from "../components/portal-popup";
+import CartSidebarView from "../components/cart-sidebar-view";
 import { useNavigate } from "react-router-dom";
 import "./main-page.css";
 
@@ -346,8 +346,6 @@ const MainPage = () => {
         </div>
         <div className="main-banner">
           <div className="main-banner-child" />
-          <img className="main-banner-item" alt="" />
-          <img className="main-banner-inner" alt="" />
           <div className="banner-ls">
             <img className="banner-ls-child" alt="" src="/ellipse-11@2x.png" />
             <i className="i55">
@@ -385,7 +383,7 @@ const MainPage = () => {
           <img
             className="icon9"
             alt=""
-            src="/.svg"
+            src="Target.svg"
             onClick={openCartSidebarView}
           />
           <img className="icon10" alt="" src="/1.svg" onClick={onIconClick} />
